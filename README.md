@@ -14,6 +14,8 @@
 corepack enable
 ```
 
+Создайте `.env` файл по аналогии с файлом `.env.example`
+
 ### Step 1: Start Metro
 
 First, you will need to run **Metro**, the JavaScript build tool for React Native.
