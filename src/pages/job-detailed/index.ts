@@ -1,1 +1,0 @@
-export { JobDetailedScreen } from './JobDetailedScreen';

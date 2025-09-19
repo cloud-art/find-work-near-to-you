@@ -1,13 +1,14 @@
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { Shift } from './api';
 
 export enum AppNavigationStacks {
-  JOBS_SCREEN = 'JobsScreen',
-  JOB_DETAILED_SCREEN = 'JobDetailedScreen',
+  SHIFTS_SCREEN = 'ShiftsScreen',
+  SHIFT_DETAILED_SCREEN = 'ShiftDetailedScreen',
 }
 
 export type RootStackParamList = {
-  [AppNavigationStacks.JOBS_SCREEN]: undefined;
-  [AppNavigationStacks.JOB_DETAILED_SCREEN]: { jobId?: string } | undefined;
+  [AppNavigationStacks.SHIFTS_SCREEN]: undefined;
+  [AppNavigationStacks.SHIFT_DETAILED_SCREEN]: { shift?: Shift } | undefined;
 };
 
 export type AppNavProp = NativeStackNavigationProp<RootStackParamList>;

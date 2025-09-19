@@ -1,0 +1,1 @@
+export { ShiftDetailedScreen } from './ShiftDetailedScreen';
