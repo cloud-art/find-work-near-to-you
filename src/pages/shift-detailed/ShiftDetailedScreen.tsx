@@ -15,7 +15,7 @@ export const ShiftDetailedScreen: FC = () => {
       {params?.shift ? (
         <ShiftDetailedScreenContent shift={params.shift} />
       ) : (
-        <Text>Не получилось достать информацию о подработке</Text>
+        <Text>Can't get information about shift</Text>
       )}
     </View>
   );
